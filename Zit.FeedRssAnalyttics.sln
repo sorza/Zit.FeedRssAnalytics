@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. API", "1. API", "{502A179C-BA7E-49AD-A164-A987EB4201A4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zit.FeedRssBlogsAnalyticsApi", "src\Zit.FeedRssBlogsAnalyticsApi\Zit.FeedRssBlogsAnalyticsApi.csproj", "{C443BC76-F391-4252-875B-E961440C33E9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Domain", "2. Domain", "{B53E4CC8-5E38-45EA-994C-56F67F09C39B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Infra", "3. Infra", "{A5A96333-B682-4FDE-8DDB-B52F0DB4D89D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zit.FeedRssAnalytics.Domain", "Zit.FeedRssAnalytics.Domain\Zit.FeedRssAnalytics.Domain.csproj", "{DAF950B0-1245-4477-AC83-0E3EC44F5075}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zit.FeedRssAnalytics.Infra", "Zit.FeedRssAnalytics.Infra\Zit.FeedRssAnalytics.Infra.csproj", "{D89A9699-9875-4B1D-8777-A92CD7146329}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C443BC76-F391-4252-875B-E961440C33E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C443BC76-F391-4252-875B-E961440C33E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C443BC76-F391-4252-875B-E961440C33E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C443BC76-F391-4252-875B-E961440C33E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAF950B0-1245-4477-AC83-0E3EC44F5075}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAF950B0-1245-4477-AC83-0E3EC44F5075}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAF950B0-1245-4477-AC83-0E3EC44F5075}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAF950B0-1245-4477-AC83-0E3EC44F5075}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D89A9699-9875-4B1D-8777-A92CD7146329}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D89A9699-9875-4B1D-8777-A92CD7146329}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D89A9699-9875-4B1D-8777-A92CD7146329}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D89A9699-9875-4B1D-8777-A92CD7146329}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C443BC76-F391-4252-875B-E961440C33E9} = {502A179C-BA7E-49AD-A164-A987EB4201A4}
+		{DAF950B0-1245-4477-AC83-0E3EC44F5075} = {B53E4CC8-5E38-45EA-994C-56F67F09C39B}
+		{D89A9699-9875-4B1D-8777-A92CD7146329} = {A5A96333-B682-4FDE-8DDB-B52F0DB4D89D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {753A3956-57D6-4843-BF8D-601B1FC2186D}
+	EndGlobalSection
+EndGlobal

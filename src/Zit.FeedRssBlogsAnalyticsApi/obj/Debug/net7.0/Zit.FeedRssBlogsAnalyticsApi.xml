@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Zit.FeedRssBlogsAnalyticsApi</name>
+    </assembly>
+    <members>
+        <member name="M:Zit.FeedRssBlogsAnalyticsApi.Controllers.AnalyticsADOController.GetCategory(System.String)">
+            <summary>
+            Resumo analítico de Categoria
+            </summary>
+            <param name="authorId"></param>
+            <returns>Retorna uma lista de Categoria por Id</returns>
+            <remarks>
+            Exemplo de request:
+            
+                GET /Todo
+                {
+                    "name":"Nome da Categoria",
+                    "count": Qtde de Post na Categoria"
+                }
+            </remarks>
+        </member>
+        <member name="M:Zit.FeedRssBlogsAnalyticsApi.Controllers.AnalyticsADOController.GetAuthors">
+            <summary>
+            Agrupamento de Post por Autor
+            </summary>
+            <returns>Retorna um resumo por agrupamento de Post por Autor</returns>
+            <remarks>
+            Exemplo de request:
+            
+                GET /Todo
+                {
+                    "authorId":"Id do Autor",
+                    "author":"Nome do Autor",
+                    "count": Qtde de Post deste Autor"
+                }
+            </remarks>
+        </member>
+        <member name="M:Zit.FeedRssBlogsAnalyticsApi.Controllers.AnalyticsADOController.GetAll(System.String)">
+            <summary>
+            Retorna uma lista de Feeds (Artigo, Blog, Video etc) do Autor.
+            </summary>
+            <returns>Retorna uma lista de Feeds (Artigo, Blog, Video etc) do Autor.</returns>
+            <remarks>
+            Retorna uma lista de Feeds (Artigo, Blog, Video etc) do Autor.
+            Exemplo de Request:
+            
+                GET /Todo
+                {
+                    "id": "Id do Autor",
+                    "authorId": "Apelido do autor",
+                    "author": Nome do autor,
+                    "link": "Link do Artigo,
+                    "title": "Titulo do Artigo",
+                    "type": "Tipo do Artigo,
+                    "category": "Categoria do Artigo",
+                    "views": "1.5k",
+                    "viewsCount": 1500, [exemplo]
+                    "likes": 2, [exemplo]
+                    "pubDate": "2023-02-18T00:00:00" [exemplo]
+                }
+            </remarks>
+        </member>
+    </members>
+</doc>
